@@ -45,10 +45,6 @@ p, h1 {
   margin: 0;
 }
 
-br{
-  font-weight: bold:
-}
-
 p{
   padding-bottom: 2rem;
   margin: 0.5;
@@ -72,13 +68,37 @@ a:hover {
     line-height: 1.4;
     font-size: 110%
   }
+
+  h1 {
+  margin: 0 0 1.4rem;
 }
+
+  p {
+  margin: 0 0 1.4rem;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.img-flex {
+  width: 50%
+}
+
 @media only screen and (min-width: 60em) {
 
   html{
     line-height: 1.5;
     font-size: 120%
   }
+
+  h1 {
+  margin: 0 0 1.5rem;
+}
+
+  p {
+  margin: 0 0 1.5rem;
 }
 
 @media only screen and (min-width: 90em) {
