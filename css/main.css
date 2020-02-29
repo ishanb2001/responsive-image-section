@@ -20,3 +20,18 @@ html {
 body {
   margin: 0;
 }
+
+header {
+  padding: 2rem 0;
+  background-color: #e2e2e2;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+p, h1 {
+  margin: 0 0 1.3rem;
+  color: #000;
+}
