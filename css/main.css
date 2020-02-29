@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+.card{
+  padding: 1rem;
+}
+
 header {
   padding: 2rem 0;
   background-color: #e2e2e2;
@@ -31,12 +35,16 @@ header {
   width: 100%;
 }
 
+h1{
+  font-size: 20pt;
+}
+
 p, h1 {
   margin: 0 0 1.3rem;
   color: #000;
 }
 
-.card{
+.wrapper {
   align-items: center;
   display: flex;
   margin: 0 auto;
@@ -53,6 +61,16 @@ p{
 a:hover {
   background-color: #000;
   color: #e2e2e2;
+}
+
+a {
+  background-color: #555;
+  font-size: 1.125rem;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em .75em;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 25em) {
