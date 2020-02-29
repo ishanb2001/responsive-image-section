@@ -35,3 +35,21 @@ p, h1 {
   margin: 0 0 1.3rem;
   color: #000;
 }
+
+.card{
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 50em;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+p{
+  padding-bottom: 2rem;
+  margin: 0.5;
+}
+
+a:hover {
+  background-color: #000;
+}
