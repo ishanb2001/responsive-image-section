@@ -19,26 +19,30 @@ html {
 
 body {
 margin: 0;
-padding: 0;
 }
 
-h1,p {
-margin: 0;
-padding: 0 0 1.3rem;
+h1 {
+padding-top: 1rem;
 }
+
 
 section{
+  padding: 1rem;
 background-color:#e2e2e2;
+font-family: sans-serif;
 }
 
 a:hover {
 background:#000;
-color: #e2e2e2;
 }
 
 .img-flex {
   display: block;
   width:100%;
+}
+
+p {
+margin: 0rem;
 }
 
 .info {
@@ -75,11 +79,13 @@ a {
   }
 
   html {
-  line-height: 1.5;
-  font-size: 120%;
+  line-height: 1.4;
+  font-size: 110%;
   }
 
 .info {
+  width: 50%;
+  display: inline-block;
   padding: 1.3em;
 }
 
@@ -89,7 +95,7 @@ a {
 
   .wrapper {
     display: flex;
-    flex-wrap;
+    flex-wrap: wrap;
 }
 }
 
@@ -119,19 +125,22 @@ font-size: 120%;
 @media only screen and (min-width: 90em) {
 
   html {
-line-height: 1.5;
 font-size: 130%;
 }
 
-.info {
-  align-items: center;
-  flex-wrap: wrap;
+.picture {
+  max-width: 50em;
+  display: block;
 }
 
-div {
-display: inline-block;
-max-width: 37%;
+.wrapper {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
 }
+
+section{
+  padding: 0 8rem;
 
 }
 }
