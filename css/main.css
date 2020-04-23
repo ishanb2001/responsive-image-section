@@ -32,23 +32,27 @@ padding: 0 0 1.3rem;
 }
 
 p {
-padding:00 1 .3rem;
+padding:00 1.3rem;
 margin: 0 ;
 }
 
-section {
-  padding: 2rem 0;
-  background-color: #e2e2e2;
+section{
+background-color:#e2e2e2;
+}
+
+a:hover {
+background:#000;
+color: #e2e2e2;
 }
 
 .img-flex {
   display: block;
-  width: 100%;
+  width:100%;
 }
 
 .card{
-  padding: 1rem;
-  max-width: 100%;
+  padding:1rem;
+  max-width:100%;
 }
 
 .photo{
@@ -57,36 +61,26 @@ section {
 }
 
 h2 {
-  margin-left: 0;
+  margin-left:0;
   font-size:100%;
-  margin: 0;
+  margin:0;
   font-weight: bold;
 }
 
 .wrapper {
   align-items: center;
   display: flex;
-  margin: 0 auto;
+  margin:0 auto;
   max-width: 50em;
   flex-wrap: wrap;
-}
-
-p {
-  padding-bottom: 1rem;
-  margin: 0;
-}
-
-a:hover {
-  background-color: #000;
-  color: #e2e2e2;
 }
 
 a {
   background-color: #555;
   text-align: left;
-  color: #fff;
+  color:#fff;
   text-decoration: none;
-  padding: .5em .75em;
+  padding:.5em .75em;
   border-radius: 4px;
 }
 
