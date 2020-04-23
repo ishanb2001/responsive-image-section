@@ -18,11 +18,22 @@ html {
 }
 
 body {
-  margin: 0;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+margin: 0;
+padding: 0 0 1.3rem;
 }
 
 .card{
   padding: 1rem;
+}
+
+p {
+padding:00 1 .3rem;
+margin: 0 ;
 }
 
 section {
@@ -50,11 +61,6 @@ h2 {
   font-size:100%;
   margin: 0;
   font-weight: bold;
-}
-
-h1,p {
-  margin: 0 0 1.3rem;
-  color: #000;
 }
 
 .wrapper {
@@ -96,26 +102,68 @@ a {
   }
 }
 
-.card {
-  max-width: 50%;
-  }
+div {
+display: inline-block;
+vertical-align: middle;
+width: 49%;
+}
+p {
+padding: 0 0 1.4rem;
+}
 
-.photo {
-  max-width: 50%;
-  }
+h1{
+padding: 0 0 1.4rem;
+padding-top: 1rem
 }
 
 @media only screen and (min-width: 60em) {
 
-  html{
-    line-height: 1.5;
-    font-size: 120%;
-  }
+  img {
+padding: 2em 0;
+}
+
+html {
+line-height: 1.5;
+font-size: 120%;
+}
+
+h1 {
+padding: 0 0 1.5rem;
+}
+
+p {
+padding: 0 0 1.5rem;
+
+.text {
+padding: 1.5em;
+}
 }
 
 @media only screen and (min-width: 90em) {
 
-  html{
-    font-size: 130%;
+  html {
+line-height: 1.5;
+font-size: 130%;
+}
+
+.text {
+text-align: left;
+}
+
+body {
+text-align: center;
+}
+h1 {
+padding: 0 0 1.5rem;
+}
+
+div {
+display: inline-block;
+max-width: 37%;
+}
+
+p {
+padding: 0 0 1.5rem;
+}
   }
 }
