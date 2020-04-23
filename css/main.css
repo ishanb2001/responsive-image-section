@@ -35,7 +35,12 @@ section {
   width: 100%;
 }
 
-.photo, card{
+.card{
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.photo{
   padding: 1rem;
   max-width: 100%;
 }
@@ -81,13 +86,21 @@ a {
 
 @media only screen and (min-width: 38em) {
 
-  html{
-    line-height: 1.4;
-    font-size: 110%;
+  img {
+  padding: 2em 0;
+  }
+
+  html {
+  line-height: 1.5;
+  font-size: 120%;
   }
 }
 
-.photo, card {
+.card {
+  max-width: 50%;
+  }
+
+.photo {
   max-width: 50%;
   }
 }
